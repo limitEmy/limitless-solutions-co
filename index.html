@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sneaker-catlog</title>
+    <link rel="stylesheet" href="sneaker.css" />
+  </head>
+  <body style="background: rgb(241, 231, 231)">
+    <section id="sneaker">
+      <div class="head-link">
+        <div class="link">
+          <a href="">Sneakers</a>
+          <a href="">Collection</a>
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </div>
+        <div class="cartimg">
+          <img src="/cart1.png" width="23px" />
+        </div>
+      </div>
+      <div class="main">
+        <div class="img">
+          <img
+            src="/sneakers1.jpg"
+            width="430pxpx"
+            height="400px"
+            id=""
+          /><br /><br />
+          <div class="main2">
+            <img src="/sneakers1.jpg" width="100px" onclick="change1()"/>
+            <img src="/sneakers1.jpg" width="100px" onclick="change2()"/>
+            <img src="/sneakers1.jpg" width="100px" onclick="change3()"/>
+            <img src="/sneakers1.jpg" width="100px"  onclick="change4()"/>
+          </div>
+        </div>
+
+        <div class="head">
+          <h4>Sneaker Company</h4>
+          <h1>Fall Limited Edition Sneaker</h1>
+          <p>
+            These low-profile sneakers are your pefect casual wear
+            companion.Featuring a durable rubber outer side.They will withstand
+            eberything the weather can offer!
+          </p>
+          <h1>$125.00 <span>50%</span></h1>
+          <p>$250.00</p>
+          <br /><br />
+          <div class="set">
+            <div class="set1">
+              <button onclick="decrease()">-</button>
+              <button id="change">0</button>
+              <button onclick="increase()">+</button>
+            </div>
+            <div class="slipt">
+              <button>
+                <img src="/cart1.png" width="15px" id="btn" />Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
